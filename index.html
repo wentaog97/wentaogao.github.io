@@ -1,90 +1,183 @@
-<!DOCTYPE HTML>
-<html>
-  
-  
-  <head>
-    <title>Wentao Gao</title>
-  </head>
-  
-  
-  <body>
-    <div id="div-navbar">
-      <nav id="navbar">
-        <a href="#about-me-section">About me</a>
-        <a href="#skills-section">Skills</a>
-        <a href="#portfolio-section">Portfolio</a>
-        <a href="#contact-section">Contact</a>
-      </nav>
-    </div>
-    
-    
-    
-    <div id="welcome-section">
-      <h1>
-        Welcome!
-      </h1>
-    </div>
-    
-    <div id="about-me-section">
-      <p>
-        Hi, I'm Wentao.
-        I am a Front-end developer
-        Also a Game developer
-      </p>
-    </div>
-    
-    <div id="skills-section">
-      <p>I am familiar with:</p>
-      <ul>
-        <li>Java</li>
-        <li>HTML/CSS</li>
-        <li>JavaScript</li>
-        <li>Bootstrap</li>
-        <li>jQuery</li>
-        <li>SASS</li>
-        <li>React</li>
-        <li>Redux</li>
-        <li>C#/Unity</li>
-        <li>Gdevelop</li>
-        <li>Phaser</li>
-        <li>Github/Git</li>
-      </ul>
-    </div>
-    
-    <div id="portfolio-section">
-      <p>Here are some of my works:</p>
-      
-      <div id="tribute-page" class="project-tile">
-        <a href="https://codepen.io/wentaogao/pen/jOYaZXd">tribute page</a>
-      </div>
-      
-      <div id="survey-page" class="project-tile">
-        <a href="https://codepen.io/wentaogao/pen/jOYapOR">survey form</a>
-      </div>
-      
-      <div id="product-page" class="project-tile">
-        <a href="https://codepen.io/wentaogao/pen/YzYYwQg">
-          product landing page
-        </a>
-      </div>
-      
-      <div id="documentation-page" class="project-tile">
-        <a href="">documentation page</a>
-      </div>
-      
-      <div id="game-page" class="project-tile">
-        <a href="https://wentaog.itch.io/cooked-raw">web game</a>
-      </div>
-      
-    </div>
-    
-    <div id="contact-section">
-      <p>You can reach me at wentaog@hotmail.com
-      </p>
-    </div>
-    
-  </body>
-  
-  
-  
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Wentao's Website">
+		<meta name="author" content="Wentao Gao">
+		
+		<title>Wentao Gao</title>
+
+		<link rel="shortcut icon" href="assets/images/logoicon.png">
+		
+		
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+		<link rel="stylesheet" href="assets/css/styles.css">
+
+	</head>
+
+	<body class="home">
+
+		<header id="header">
+			<div id="head" class="parallax" parallax-speed="2">
+				<h1 id="logo" class="text-center">
+					<img class="img-circle" src="assets/images/wentao-pic.jpg" alt="">
+					<span class="title">Wentao Gao</span>
+					<span class="tagline">
+						Software Developer
+						</br>
+						<a href="mailto: wentaog@hotmail.com">wentaog@hotmail.com</a>
+					</span>
+					<span class="resume">
+						<a href="2022_Resume_Wentao_Gao.pdf" class="btn btn-action">Resume</a>
+					</span>
+				</h1>
+			</div>
+
+			<nav class="navbar navbar-default navbar-sticky">
+				<div class="container-fluid">
+					
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+					</div>
+					
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#header">Home</a>
+							</li>
+							<li>
+								<a href="#about">About</a>
+							</li>
+							<li >
+								<a href="#portfolio">Portfolio</a>
+							</li>
+							<li>
+								<a href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div><!--/.nav-collapse -->			
+				</div>	
+			</nav>
+		</header>
+		
+		<main id="main">
+
+			<div class="container">
+				
+				<div id="about" class="row section topspace">
+					<div class="col-md-12">
+						<p class="lead text-center text-muted">Hello, my name is Wentao, a self taught software developer based in Redmond, Washington. My passion is in developing apps that would make our lives easier. I am also passionate about game design and development. When I am not glued to my computer, I love to play my classical guitar, go hiking or workout. </p>
+					</div>
+				</div> <!-- / section -->
+				
+				<div class="row section featured topspace">
+
+					<h2 class="section-title"><span>Skills</span></h2>
+
+					<div class="row">
+						<div class="col-sm-6">
+							<h3 class="text-center">Front-end</br>Web Development</h3>
+							<p class="col-sm-1"></p>
+							<p class="text-center col-sm-10">HTML, CSS, JavaScript are the primary tools that I use for web devleopment. I also have experience in various JS frameworks, such as Bootstrap, jQuery, SASS, React, Redux, D3, and AJAX.</p>
+							<p class="col-sm-1"></p>
+						</div>
+						<div class="col-sm-6">
+							<h3 class="text-center">Game</br>Development</h3>
+							<p class="col-sm-1"></p>
+							<p class="text-center col-sm-10">I started my journey in game development with Gdevelop. Later I have move to Unity as the main tool for game development. I also have some experience with Unreal engine.</p>
+							<p class="col-sm-1"></p>
+						</div>
+					</div>
+
+				</div> <!-- / section -->
+			
+				<div id="portfolio" class="row section portfolio topspace">
+					
+					<h2 class="section-title"><span>Portfolio</span></h2>
+					
+					<div class="thumbnails portfolio row">
+						
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+							<a class="thumbnail" href="sidebar-right.html">
+								<span class="img">
+									<img src="assets/images/tribute-page.png" alt="">
+									<span class="cover"><span class="more">See details &rarr;</span></span>
+								</span>
+								<span class="title">Tribute Page</span>
+							</a>
+						</div>
+						
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+							<a class="thumbnail" href="sidebar-right.html">
+								<span class="img">
+									<img src="assets/images/survey-form.png" alt="">
+									<span class="cover"><span class="more">See details &rarr;</span></span>
+								</span>
+								<span class="title">Survey Form</span>
+							</a>
+						</div>
+						
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+							<a class="thumbnail" href="sidebar-right.html">
+								<span class="img">
+									<img src="assets/images/landing-page.png" alt="">
+									<span class="cover"><span class="more">See details &rarr;</span></span>
+								</span>
+								<span class="title">Product Landing Page</span>
+							</a>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+							<a class="thumbnail" href="sidebar-right.html">
+								<span class="img">
+									<img src="assets/images/cooked-raw.jpg" alt="">
+									<span class="cover"><span class="more">See details &rarr;</span></span>
+								</span>
+								<span class="title">Cooked Raw</span>
+							</a>
+						</div>
+						
+					</div>
+
+				</div> <!-- /section -->
+
+			</div>	<!-- /container -->
+
+		</main>
+
+		<footer id="footer">
+			<div class="container" id="contact">
+				<div class="row">
+					<div class="widget">
+						<h3 class="widget-title">Contact</h3>
+						<div class="widget-body">
+							<p>(702)882-7709<br>
+								<a href="mailto: wentaog@hotmail.com">wentaog@hotmail.com</a>
+							</p>	
+						</div>
+						<p class="follow-me-icons">
+							<a href="https://www.linkedin.com/in/wentao-gao-579505108/"><i class="fa fa-brands fa-linkedin"></i></a>
+							<a href="https://github.com/wentaog97"><i class="fa fa-brands fa-github"></i></a>
+							<a href="https://www.freecodecamp.org/wentaogao"><i class="fa fa-brands fa-free-code-camp"></i></a>
+							<a href="https://wentaog.itch.io/"><i class="fa fa-brands fa-itch-io"></i></a>
+						</p>
+
+					</div>
+					
+					
+				</div> <!-- /row of widgets -->
+			</div>
+		</footer>
+
+	<!-- JavaScript libraries-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/template.js"></script>
+	</body>
+
 </html>
